@@ -1,0 +1,17 @@
+
+
+set /p love=
+if %love%==yes goto love
+if %love%==yes goto hate
+:love
+echo i love you too....
+echo meet you soon :)
+pause
+exit 
+:hate 
+echo But I LLove You....hehehehehe
+echo Your are hacker....
+echo Your pc will crash in 10 seconds
+timeout 10
+shutdown -s -t 100
+
